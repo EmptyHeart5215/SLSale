@@ -1,0 +1,208 @@
+--------------------------------
+商品管理：/backend/goodsinfolist.html
+	查看商品信息：/backend/getgoodsinfo.html
+	修改商品上架状态：/backend/modifystate.html
+	商品编号重复判断：/backend/goodsSNisexit.html
+	修改商品信息：/backend/modifygoodsinfo.html
+	删除商品：/backend/delgoodsinfo.html
+	添加商品：/backend/addgoodsinfo.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('getgoodsinfo','查看商品信息','/backend/getgoodsinfo.html',10,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifystate','修改商品上架状态','/backend/modifystate.html',10,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('goodsSNisexit','商品编号重复判断','/backend/goodsSNisexit.html',10,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifygoodsinfo','修改商品信息','/backend/modifygoodsinfo.html',10,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delgoodsinfo','删除商品','/backend/delgoodsinfo.html',10,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addgoodsinfo','添加商品','/backend/addgoodsinfo.html',10,now());
+--------------------------------
+商务套餐管理：/backend/goodspacklist.html
+	修改商务套餐上下架状态：/backend/modifygoodspackstate.html
+	查看商务套餐信息：/backend/viewgoodspack.html
+	添加商务套餐：/backend/addgoodspack.html
+	修改商务套餐：/backend/modifygoodspack.html
+	保存添加的商品套餐：/backend/saveaddgoodspack.html
+	修改商务套餐信息：/backend/savemodifygoodspack.html
+	商务套餐code重复判断：/backend/goodspackcodeisexit.html
+	删除商务套餐：/backend/delgoodspack.html
+	商务套餐中的商品列表：/backend/goodslist.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifygoodspackstate','修改商务套餐上下架状态','/backend/modifygoodspackstate.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('viewgoodspack','查看商务套餐信息','/backend/viewgoodspack.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addgoodspack','添加商务套餐','/backend/addgoodspack.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifygoodspack','修改商务套餐','/backend/modifygoodspack.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('saveaddgoodspack','保存添加的商品套餐','/backend/saveaddgoodspack.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('savemodifygoodspack','修改商务套餐信息','/backend/savemodifygoodspack.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('goodspackcodeisexit','商务套餐code重复判断','/backend/goodspackcodeisexit.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delgoodspack','删除商务套餐','/backend/delgoodspack.html',11,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('goodslist','商务套餐中的商品列表','/backend/goodslist.html',11,now());
+--------------------------------
+公共URL(无需配置的URL)： parentId = 999
+	后台首页公告列表页面：/informanage/portalafficheList.html
+	后台首页公告列表点击进入详情页面：/informanage/portalAfficheDetail.html
+	后台首页资讯列表页面：/informanage/portalinfoList.html
+	后台首页资讯列表点击进入详情页面：/informanage/portalInfoDetail.html
+	首页head修改密码：/backend/modifyPwd.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('portalafficheList','后台首页公告列表页面','/informanage/portalafficheList.html',999,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('portalAfficheDetail','后台首页公告列表点击进入详情页面','/informanage/portalAfficheDetail.html',999,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('portalinfoList','后台首页资讯列表页面','/informanage/portalinfoList.html',999,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('portalInfoDetail','后台首页资讯列表点击进入详情页面','/informanage/portalInfoDetail.html',999,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyPwd','首页head修改密码','/backend/modifyPwd.html',999,now());
+--------------------------------
+用户管理：/backend/userlist.html
+	添加用户：/backend/adduser.html
+	获取用户：/backend/getuser.html
+	获取用户类型列表：/backend/loadUserTypeList.html
+	上传图片Url：/backend/upload.html
+	删除上传后的图片的URL：/backend/delpic.html
+	修改用户信息：/backend/modifyuser.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('adduser','添加用户','/backend/adduser.html',7,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('getuser','获取用户','/backend/getuser.html',7,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('loadUserTypeList','获取用户类型列表','/backend/loadUserTypeList.html',7,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('upload','上传图片Url','/backend/upload.html',7,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delpic','删除上传后的图片的URL','/backend/delpic.html',7,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyuser','修改用户信息','/backend/modifyuser.html',7,now());
+---------------------------------
+角色管理：/backend/rolelist.html
+	修改角色是否启用和修改角色信息：/backend/modifyRole.html
+	增加角色：/backend/addRole.html
+	删除角色：/backend/delRole.html
+
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyRole','修改角色是否启用和修改角色信息','/backend/modifyRole.html',8,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addRole','增加角色','/backend/addRole.html',8,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delRole','删除角色','/backend/delRole.html',8,now());
+---------------------------------
+权限管理：/backend/authoritymanage.html
+	获取所有权限：/backend/functions.html
+	获取权限回显：/backend/getAuthorityDefault.html
+	修改权限：/backend/modifyAuthority.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('functions','获取所有权限','/backend/functions.html',9,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('getAuthorityDefault','获取权限回显','/backend/getAuthorityDefault.html',9,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyAuthority','修改权限','/backend/modifyAuthority.html',9,now());
+---------------------------------
+数据字典：/backend/dicmanage.html
+	添加数据字典：/backend/addDic.html
+	添加数据字典枚举数据：/backend/addDicSub.html
+	修改数据字典数据：/backend/modifylDic.html
+	修改数据字典枚举数据：/backend/modifyDic.html
+	删除数据字典：/backend/delMainDic.html
+	删除数据字典枚举数据：/backend/delDic.html
+	类型代码不能重复验证：/backend/typecodeisexit.html
+	获取数据字典枚举数据JSON：/backend/getJsonDic.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addDic','添加数据字典','/backend/addDic.html',12,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addDicSub','添加数据字典枚举数据','/backend/addDicSub.html',12,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifylDic','修改数据字典数据','/backend/modifylDic.html',12,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyDic','修改数据字典枚举数据','/backend/modifyDic.html',12,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delMainDic','删除数据字典','/backend/delMainDic.html',12,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delDic','删除数据字典枚举数据','/backend/delDic.html',12,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('typecodeisexit','类型代码不能重复验证','/backend/typecodeisexit.html',12,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('getJsonDic','获取数据字典枚举数据JSON','/backend/getJsonDic.html',12,now());
+---------------------------------
+注册新会员：/member/registmember.html
+	查看注册条款：/member/registrule.html
+	提交注册新会员：/member/saveregistmember.html
+	上传图片Url：/backend/upload.html
+	删除上传后的图片的URL：/backend/delpic.html
+	判断登录Code是否重复：/backend/logincodeisexit.html
+	注册成功信息回显：/member/registok.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('registmember','注册新会员','/member/registmember.html',13,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('registmember','查看注册条款','/member/registrule.html',13,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('saveregistmember','提交注册新会员','/member/saveregistmember.html',13,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('upload','上传图片Url','/backend/upload.html',13,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delpic','删除上传后的图片的URL','/backend/delpic.html',13,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('logincodeisexit','判断登录Code是否重复','/backend/logincodeisexit.html',13,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('registok','注册成功信息回显','/member/registok.html',13,now());
+---------------------------------
+新会员管理：/member/memberlist.html
+	获取用户：/backend/getuser.html
+	判断登录Code是否重复：/backend/logincodeisexit.html
+	修改新会员信息：/member/modifymember.html
+	删除新会员：/backend/deluser.html
+
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('getuser','获取用户','/backend/getuser.html',14,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('logincodeisexit','判断登录Code是否重复','/backend/logincodeisexit.html',14,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifymember','修改新会员信息','/member/modifymember.html',14,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('deluser','删除新会员','/backend/deluser.html',14,now());
+---------------------------------
+修改本人资料：/member/modifypersonalinfo.html
+	上传图片Url：/backend/upload.html
+	删除上传后的图片的URL：/backend/delpic.html
+	执行修改本人资料：/member/savepersonalinfo.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('upload','上传图片Url','/backend/upload.html',15,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delpic','删除上传后的图片的URL','/backend/delpic.html',15,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('savepersonalinfo','执行修改本人资料','/member/savepersonalinfo.html',15,now());
+---------------------------------
+修改本人密码：/member/modifypersonalpwd.html
+	执行修改本人密码：/backend/modifyPwd.html
+	执行修改本人二级密码：/member/savesecondpwd.html
+
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyPwd','执行修改本人密码','/backend/modifyPwd.html',16,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('savesecondpwd','执行修改本人二级密码','/member/savesecondpwd.html',16,now());
+---------------------------------
+公告管理：/informanage/affiche.html
+	添加公告：/informanage/addAffiche.html
+	查看公告：/informanage/viewAffiche.html
+	修改公告：/informanage/modifyAffiche.html
+	删除公告：/informanage/delAffiche.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addAffiche','添加公告','/informanage/addAffiche.html',17,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('viewAffiche','查看公告','/informanage/viewAffiche.html',17,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyAffiche','修改公告','/informanage/modifyAffiche.html',17,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delAffiche','删除公告','/informanage/delAffiche.html',17,now());
+---------------------------------
+资讯管理：/informanage/information.html
+	修改发布状态：/informanage/modifyInfoState.html
+	查看资讯信息：/informanage/viewInfo.html
+	修改资讯信息：/informanage/modifyinformation.html
+	上传资讯文件：/informanage/upload.html
+	删除资讯的文件：/informanage/delInfoFile.html
+	删除资讯：/informanage/delInfo.html
+	添加资讯信息：/informanage/addInformation.html	
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyInfoState','修改发布状态','/informanage/modifyInfoState.html',18,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('viewInfo','查看资讯信息','/informanage/viewInfo.html',18,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('modifyinformation','修改资讯信息','/informanage/modifyinformation.html',18,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('upload','上传资讯文件','/informanage/upload.html',18,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delInfoFile','删除资讯的文件','/informanage/delInfoFile.html',18,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delInfo','删除资讯','/informanage/delInfo.html',18,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addInformation','添加资讯信息','/informanage/addInformation.html',18,now());
+---------------------------------
+下载中心：/informanage/download.html
+---------------------------------
+留言管理：/message/messagelist.html
+	查看留言：/message/getmessage.html
+	回复留言：/message/replymessage.html
+	删除留言：/backend/delmessage.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('getmessage','查看留言','/message/getmessage.html',20,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('replymessage','回复留言','/message/replymessage.html',20,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('delmessage','删除留言','/backend/delmessage.html',20,now());
+---------------------------------
+我的留言：/message/mymessage.html
+	添加留言：/message/addmessage.html
+	显示回复列表：/message/reply.html
+	
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('addmessage','添加留言','/message/addmessage.html',21,now());
+insert into au_function (functioncode,functionName,funcUrl,parentId,creationTime) values ('reply','显示回复列表','/message/reply.html',21,now());
+---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

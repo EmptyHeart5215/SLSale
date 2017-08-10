@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.slsale.dao.datadictionary.DataDictionaryMapper">
+	 
+	 <select id="getDataDictionaries" resultType="dataDictionary" parameterType="dataDictionary">
+		select * from data_dictionary
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test="typeCode != null">
+				and typeCode = #{typeCode}
+			</if>
+			<if test="typeName != null">
+				and typeName = #{typeName}
+			</if>
+			<if test="id != null">
+				and id = #{id}
+			</if>
+			order by valueId asc
+		</trim> 
+	</select>
+	
+</mapper>  

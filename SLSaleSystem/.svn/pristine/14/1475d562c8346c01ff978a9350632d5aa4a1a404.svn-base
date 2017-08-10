@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.slsale.dao.function.FunctionMapper">
+	<!-- getMainFunctionList -->
+	<select id="getMainFunctionList" resultType="function" parameterType="authority">
+		SELECT * FROM au_function WHERE ID 
+			IN (SELECT functionId FROM au_authority WHERE parentId=0 AND roleId=#{roleId})
+	</select>
+	
+	<!-- getSubFunctionList -->
+	<select id="getSubFunctionList" resultType="function" parameterType="function">
+		SELECT * FROM au_function WHERE parentId=#{id} AND id 
+			IN (SELECT functionId FROM au_authority WHERE roleId=#{roleId})
+	</select>
+	
+	
+
+</mapper>

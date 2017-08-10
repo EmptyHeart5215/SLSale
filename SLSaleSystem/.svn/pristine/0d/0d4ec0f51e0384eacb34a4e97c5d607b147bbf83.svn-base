@@ -1,0 +1,23 @@
+package org.slsale.dao.datadictionary;
+
+import java.util.List;
+
+import org.slsale.pojo.DataDictionary;
+import org.slsale.pojo.User;
+
+/**
+ * DataDictionaryMapper
+ * @author bdqn_hl
+ * @date 2014-3-3
+ */
+public interface DataDictionaryMapper {
+	
+	
+	/**
+	 * getDataDictionaries
+	 * @return dataDictionary
+	 */
+	public List<DataDictionary> getDataDictionaries(DataDictionary dataDictionary) throws Exception;
+	
+	
+}

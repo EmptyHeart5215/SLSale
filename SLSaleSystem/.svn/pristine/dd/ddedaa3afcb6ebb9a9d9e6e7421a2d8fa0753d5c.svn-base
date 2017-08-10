@@ -1,0 +1,19 @@
+package org.slsale.service.dataDictionary;
+
+import java.util.List;
+
+import org.slsale.pojo.DataDictionary;
+
+/**
+ * DataDictionaryService
+ * @author bdqn_hl
+ * @date 2014-2-24
+ */
+public interface DataDictionaryService {
+	/**
+	 * getDataDictionaries
+	 * @return dataDictionary
+	 */
+	public List<DataDictionary> getDataDictionaries(DataDictionary dataDictionary) throws Exception;
+	
+}
